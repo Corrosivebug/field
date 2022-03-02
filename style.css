@@ -1,0 +1,61 @@
+#box{
+    width: 2000px;
+    height: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+#par{
+
+    padding: 30px 50px;
+    border-bottom: 1px solid black;
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+#input{
+    padding: 10px 90px;
+    background-color: rgb(54, 85, 48);
+    border: none;
+    box-shadow: 0 0 10px black;
+    margin-top: 20px;
+    opacity: .7;
+}
+#pole{
+    background: url(./img/bac.png) no-repeat;
+    box-sizing: 110%;
+    border: 1px solid black;
+    margin: 10px auto;
+    width: 1300px;
+    height: 545px;
+    background-size: 100%;
+    background-position: center;
+}
+#player{
+    width: 100px;
+    height: 100px;
+    background: url(./img/Хантер.png) no-repeat ; 
+    background-size: 100%;
+    /* display: none; */
+    opacity: 0;
+    transition: all .4s linear;
+    position: relative;
+    left: 20;
+    right: 0;
+    bottom: 0;
+    top: 20;
+}
+#box button{
+    padding: 10px 20px;
+    width: 130px;
+    height: 80px;
+    font-size: 30px;
+    background-color: rgb(63, 56, 56);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#start{
+    margin-right: 100px;
+}
+#color{
+    margin-right: 120px;
+}
